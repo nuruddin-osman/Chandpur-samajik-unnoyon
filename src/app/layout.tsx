@@ -2,6 +2,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/header/Navbar";
+import Footer from "@/components/footer/Footer";
 
 export const metadata: Metadata = {
   title: "Nuruddin-portfolio",
@@ -25,7 +27,9 @@ export default function RootLayout({
         className={`${inter.className} antialiased`}
         suppressHydrationWarning={true}
       >
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

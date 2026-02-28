@@ -75,7 +75,6 @@ const Navbar = () => {
             onClick={() => setIsOpen(!isOpen)}
             aria-label="Toggle menu"
           >
-            hello
             {isOpen ? <IoMdClose size={24} /> : <CiMenuFries size={24} />}
           </button>
         </div>
