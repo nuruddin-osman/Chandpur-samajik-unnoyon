@@ -7,7 +7,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { CiMenuFries } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
-import Logo from "@/assets/logo.jpeg";
+import Logo from "@/assets/logo.png";
 
 const navItems: Array<{ label: string; href: string }> = [
   { label: "হোম", href: "/" },
@@ -22,11 +22,11 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState<boolean>(false);
   return (
     <nav className="bg-[#25343F] text-white sticky top-0 z-50">
-      <div className="container mx-auto px-4 py-2">
+      <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <div className="relative w-10 h-10 md:w-20 md:h-20">
+            <div className="relative w-20 h-20 md:w-24 md:h-24">
               <Image
                 src={Logo}
                 alt="Logo"
