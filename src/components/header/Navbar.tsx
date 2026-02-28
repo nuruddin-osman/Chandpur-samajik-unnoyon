@@ -14,7 +14,7 @@ const navItems: Array<{ label: string; href: string }> = [
   { label: "সম্পর্কে", href: "/about" },
   { label: "কমিটি", href: "/committee" },
   { label: "আর্থিক প্রতিবেদন", href: "/reports" },
-  { label: "যোগাযোগ", href: "/contact" },
+  { label: "যোগাযোগ", href: "/contact-us" },
 ];
 
 
@@ -56,13 +56,13 @@ const Navbar = () => {
           {/* Auth Buttons */}
           <div className="hidden md:flex space-x-3">
             <Link
-              href="/login"
+              href="#"
               className="font-montserrat px-4 py-2 text-sm border border-[#F2A65A] text-[#F2A65A] hover:bg-[#F2A65A] hover:text-[#25343F] rounded transition"
             >
               লগইন
             </Link>
             <Link
-              href="/register"
+              href="#"
               className="font-montserrat px-4 py-2 text-sm bg-[#F2A65A] text-[#25343F] hover:bg-opacity-90 rounded transition"
             >
               রেজিস্ট্রেশন

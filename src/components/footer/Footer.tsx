@@ -18,7 +18,7 @@ const quickLinks: FooterLink[] = [
   { label: 'আমাদের সম্পর্কে', href: '/about' },
   { label: 'কমিটি', href: '/committee' },
   { label: 'আর্থিক প্রতিবেদন', href: '/reports' },
-  { label: 'যোগাযোগ', href: '/contact' },
+  { label: 'যোগাযোগ', href: '/contact-us' },
 ];
 
 const Footer = () => {

@@ -24,7 +24,7 @@ const Hero = () => {
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4 mt-8">
               <Link
-                href="/register"
+                href="#"
                 className="font-montserrat bg-[#F2A65A] text-[#25343F] px-6 py-3 rounded-md hover:bg-opacity-90 transition flex items-center gap-2"
               >
                 সদস্য হোন

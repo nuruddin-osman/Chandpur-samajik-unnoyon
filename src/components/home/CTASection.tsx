@@ -19,14 +19,14 @@ const CTASection = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/register"
+              href="#"
               className="font-montserrat bg-[#25343F] text-white px-8 py-4 rounded-md hover:bg-[#F2A65A] hover:text-[#25343F] transition flex items-center justify-center gap-2"
             >
               <FaUserPlus size={20} />
               সদস্য হোন
             </Link>
             <Link
-              href="/donate"
+              href="#"
               className="font-montserrat bg-[#F2A65A] text-[#25343F] px-8 py-4 rounded-md hover:bg-opacity-90 transition flex items-center justify-center gap-2"
             >
               <CiCreditCard1 size={20} />
