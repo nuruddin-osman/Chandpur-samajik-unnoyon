@@ -56,13 +56,13 @@ const Navbar = () => {
           {/* Auth Buttons */}
           <div className="hidden md:flex space-x-3">
             <Link
-              href="#"
+              href="/login"
               className="font-montserrat px-4 py-2 text-sm border border-[#F2A65A] text-[#F2A65A] hover:bg-[#F2A65A] hover:text-[#25343F] rounded transition"
             >
               লগইন
             </Link>
             <Link
-              href="#"
+              href="/ragistration"
               className="font-montserrat px-4 py-2 text-sm bg-[#F2A65A] text-[#25343F] hover:bg-opacity-90 rounded transition"
             >
               রেজিস্ট্রেশন
@@ -102,7 +102,7 @@ const Navbar = () => {
                   লগইন
                 </Link>
                 <Link
-                  href="/register"
+                  href="/ragistration"
                   className="block font-montserrat text-center bg-[#F2A65A] text-[#25343F] px-4 py-2 rounded"
                   onClick={() => setIsOpen(false)}
                 >
